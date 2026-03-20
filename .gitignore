@@ -1,0 +1,19 @@
+# .NET
+bin/
+obj/
+*.user
+*.suo
+.vs/
+
+# Node
+node_modules/
+dist/
+.env
+.env.local
+
+# SQLite (keep it tracked so DB is in repo)
+# Bookstore.sqlite
+
+# OS
+.DS_Store
+Thumbs.db
