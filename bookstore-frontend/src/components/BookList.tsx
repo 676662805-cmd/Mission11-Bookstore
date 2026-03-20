@@ -13,7 +13,7 @@ function BookList() {
   useEffect(() => {
     setLoading(true);
     fetch(
-      `http://localhost:5000/api/books?page=${page}&pageSize=${pageSize}&sortOrder=${sortOrder}`
+      `http://localhost:5175/api/books?page=${page}&pageSize=${pageSize}&sortOrder=${sortOrder}`
     )
       .then((res) => res.json())
       .then((data: BookResponse) => {
